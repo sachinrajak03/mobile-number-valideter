@@ -23,7 +23,7 @@ const checkValidNumber = input => {
     : (pTag.style.color = '#4d3800');
   pTag.appendChild(
     document.createTextNode(
-      `${phoneRegex.test(input) ? 'Valid' : 'Invalid'} US number: ${input}`
+      `${phoneRegex.test(input) ? 'Valid' : 'Invalid'} India number: ${input}`
     )
   );
   resultsDiv.appendChild(pTag);
